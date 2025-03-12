@@ -3,6 +3,14 @@ import os
 #Limpando terminal.
 os.system("clear")
 
+print(""""
+              ========================= MENU ==========================
+                 Frutas      Preços ate 5 Kg     Preço acima de 5 Kg
+ \t\t Maçã           2,50                  2,20   
+ \t\t Morango        1,80                  1,50
+              =========================================================
+""")
+
 # Solicitando ao Usuario a quantidade de morangos e maçãs em (Kg).
 kg_morango = float(input("Digite a quantidade de Morangos (Kg): "))
 kg_maca = float(input("Digite a quantidade de Maçãs (Kg): "))
