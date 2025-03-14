@@ -1,5 +1,7 @@
 import os 
 import time
+
+#Limpando Terminal.
 os.system("cls || clear")
 
 numero = int(input("Digite um numero para contagem regressiva "))

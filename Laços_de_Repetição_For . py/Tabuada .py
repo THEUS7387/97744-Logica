@@ -1,4 +1,6 @@
 import os 
+
+#Limpando Terminal.
 os.system("cls || clear")
 
 numero= int(input("Digite um numero para tabuada: "))
