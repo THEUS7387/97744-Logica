@@ -1,10 +1,10 @@
-import os
+import os 
 
 os.system("cls || clear")
 
-#Atividade com Laço de Repetição.
 login_cadastrado = "Mateus"
 senha_cadastrada = "1234"
+contador = 0
 
 while True:
     login = input("Digite o login: ")
@@ -15,3 +15,7 @@ while True:
         break
     else:
         print("Acesso negado. \nTente novamente")
+        contador += 1
+        if contador == 3:
+            print("Número de tentativas acima do permitido.\n")
+            break
