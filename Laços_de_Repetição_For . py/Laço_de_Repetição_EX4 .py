@@ -1,6 +1,7 @@
 import os
 
 os.system("cls || clear")
+
 QUANTIDADE_NOTAS = 2
 soma = 0
 
