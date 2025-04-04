@@ -6,7 +6,7 @@ def contar_pares_impares():
     impares = 0
 
     for i in range(6):
-        numero =int(input("Digite um número: "))
+        numero =int(input("Digite um Número: "))
         if numero % 2== 0:
             pares+= 1
         else:
@@ -15,5 +15,5 @@ def contar_pares_impares():
 
 quantidade_pares, quantidade_impares = contar_pares_impares()
 
-print(f"\nQuantidade de pares: {quantidade_pares}")
-print(f"\Quantidade de ímpares: {quantidade_impares}")
+print(f"\nQuantidade de Pares: {quantidade_pares}")
+print(f"\nQuantidade de Ímpares: {quantidade_impares}")

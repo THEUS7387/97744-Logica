@@ -16,18 +16,19 @@ forma_de_pagamento = int(input("Digite a forma de pagamento: "))
 match forma_de_pagamento:
     case 1:
         #Obtendo o valor do desconto 10%.
-        desconto = vaqlor_produto * 0.10
+        desconto = valor_produto * 0.10
         valor_com_desconto = valor_produto - desconto
 
         #Exibindo Resultados.
-         print(f"\nValor do produto: R$ {valor_do_produto}")
-         print(f"Forma de pagamento: a vista")
-         print(f"Valor do desconto: R${desconto}")
-         print(f"Total a pagar: R$ {valor_com_desconto}")
+print(f"\nValor do produto: R$ {valor_produto}")
+print(f"Forma de pagamento: a vista")
+print(f"Valor do desconto: R${desconto}")
+print(f"Total a pagar: R$ {valor_com_desconto}")
          
-    case 2:
-         quantidade_parcelas = int(input("Digite a quantidade de parcelas: "))
-         if quantidade_parcelas >= 1 and quantidade_parcelas <= 6:
-             valor_da_parcela = valor_do_produto / quantidade_parcelas
+case 2:
+
+quantidade_parcelas = int(input("Digite a quantidade de parcelas: "))
+if quantidade_parcelas >= 1 and quantidade_parcelas <= 6:
+             valor_da_parcela = valor_produto / quantidade_parcelas
 
              #Exibindo resultados.
