@@ -1,0 +1,3 @@
+=DADOS DOS VEICULOS=
+Carro 1 - Marca: Koenigsegg, Modelo: Agera One: 1, Categoria: Hypercarro, Preço: 10100000.00
+Carro 2 - Marca: Chevrolet, Modelo: Corvette C7 Z06S Black Edition, Categoria: Esportivo, Preço: 1390000.00

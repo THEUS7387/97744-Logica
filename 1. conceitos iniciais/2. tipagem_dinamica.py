@@ -2,7 +2,7 @@
 # Quando a linguagem identifica 
 
 # nome: caracter
- nome = "Mateus"
+nome = "Mateus"
 
 # idade: inteiro
 idade = 19

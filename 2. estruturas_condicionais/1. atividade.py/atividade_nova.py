@@ -5,7 +5,7 @@ os.system("clear")
 
 # 2 - Solicitando Dados ao Usuario.
 
-numero_mes = int(intup("Digite um numero de 1 a 12 para ver o mes correspondente: "))
+numero_mes = int(input("Digite um numero de 1 a 12 para ver o mes correspondente: "))
 
 match numero_mes:
     case 1:
