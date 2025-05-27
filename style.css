@@ -1,0 +1,57 @@
+/* Reset básico */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+    color: #333;
+    padding: 40px;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 950 px;
+}
+
+h1 {
+    color: #004880;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p{
+    font-size:18px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+hr{
+    margin: 20px;
+}
+
+a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+ul{
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+ol{
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+}
